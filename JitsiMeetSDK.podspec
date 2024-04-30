@@ -6,7 +6,8 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/jitsi/jitsi-meet-ios-sdk-releases'
   s.license          = 'Apache 2'
   s.authors          = 'The Jitsi Meet project authors'
-  s.source           = { :git => 'https://github.com/jitsi/jitsi-meet-ios-sdk-releases.git', :tag => s.version }
+#   s.source           = { :git => 'https://github.com/jitsi/jitsi-meet-ios-sdk-releases.git', :tag => s.version }
+  s.source           = { :git => 'https://github.com/Fozeus/jitsi-meet-ios-sdk-releases.git', :tag => s.version }
   s.platform         = :ios, '13.4'
   s.swift_version    = '5'
   s.vendored_frameworks = 'Frameworks/JitsiMeetSDK.xcframework'
